@@ -1,0 +1,98 @@
+#portada {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+    /* background-image: url('./portada.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover */
+}
+
+#perfil {
+    width: 220px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px black;
+    margin-bottom: 20px
+}
+#consola {
+    background-color: #2a363b;
+    padding: 10px;
+    box-shadow: 0px 0px 15px black
+}
+
+.tria {
+    position: absolute;
+    width: 0px;
+    height: 0px
+}
+
+.izq {
+    bottom: 0;
+    left: 0;
+    border-right: solid 0px transparent;
+    border-left: solid 0px transparent;
+    border-bottom: solid 0px white;
+    border-top:solid 0px transparent
+}
+
+.der {
+    bottom: 0;
+    right: 0;
+    border-right: solid 0px transparent;
+    border-left: solid 0px transparent;
+    border-bottom: solid 0px white;
+    border-top:solid 0px transparent
+}
+
+.marco{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+   
+    #portada {
+        height: 100%
+    }
+
+    #perfil {
+        width: 170px
+    }
+
+}
+
+/* TABLET */
+@media only scree and (min-width:769px) and  (max-width: 1023px) {
+   
+   
+    
+}
+
+/* DESKTOP */
+@media only screen and (min-width:1024px) and (max-width: 1215px) {
+   
+
+    
+}
+
+/* WIDESCREEN */
+@media only screen and (min-width:1216px) and (max-width: 1407px) {
+   
+
+    
+}
+
+/* FULLHD */
+@media only screen and (min-width: 1408px) {
+   
+
+    
+}

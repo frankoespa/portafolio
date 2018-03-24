@@ -1,0 +1,49 @@
+#im-carga {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s linear 0s
+    
+}
+
+#im-marloader{
+    position: relative;
+    width: 120px;
+    height: 3px;
+    margin-top: 15px;
+    background-color: #4a4a4a;
+    overflow: hidden
+}
+
+@keyframes loader {
+    0%   {left:75%}
+    50%  {left: -25%}
+    100% {left: 75%}
+}
+
+#im-loader {
+    position: relative;
+    width: 60px;
+    height: 3px;
+    background-color: #ff6b52;
+    left: 75%;
+    animation: loader 2s ease 0s infinite normal
+}
+
+@keyframes carga {
+    0%   {transform: scale(1, 1)}
+    50%  {transform: scale(1.2, 1.2);}
+    100% {transform: scale(1, 1);}
+}
+
+#im-llave {
+    font-size: 3rem;
+    animation: carga .5s ease 0s infinite normal;
+}
+

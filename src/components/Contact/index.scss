@@ -1,0 +1,20 @@
+.im-social {
+    background-color: white;
+    border-radius: 50%
+}
+
+.im-header {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-weight: 300;
+    letter-spacing: 1px
+}
+
+/* MOBILE */
+@media only screen and (max-width: 768px) {
+    .level-item:not(:last-child) {
+
+    margin-bottom: 3rem;
+
+    }
+}
