@@ -11,9 +11,9 @@ export default () => (
     <div id="index">
         <About/>
         <Stack/>
-        <Info/>
         <Frase/>
         <Skills/>
+        <Info/>
         <Contact/>
     </div>
 

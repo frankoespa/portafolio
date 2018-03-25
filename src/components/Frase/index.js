@@ -45,7 +45,7 @@ class Frase extends Component {
 
     render() {
         return (
-            <div className="section im-fondo im-back1 im-sombra-box">
+            <div className="section im-fondo im-back1">
                 <div className="container">
                     <h4 className="title has-text-weight-normal is-4 has-text-white has-text-centered">" {this.state.frase.cita} "</h4>
                     <h5 className="subtitle is-5 has-text-centered has-text-weight-light has-text-white">{this.state.frase.autor}</h5>
