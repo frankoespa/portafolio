@@ -7,9 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    transition: opacity 1s linear 0s
-    
+    align-items: center
 }
 
 #im-marloader{
@@ -22,9 +20,9 @@
 }
 
 @keyframes loader {
-    0%   {left:75%}
-    50%  {left: -25%}
-    100% {left: 75%}
+    0%   {transform:translate(-50%,0)}
+    50%  {transform:translate(150%,0)}
+    100% {transform:translate(-50%,0)}
 }
 
 #im-loader {
@@ -32,8 +30,7 @@
     width: 60px;
     height: 3px;
     background-color: #ff6b52;
-    left: 75%;
-    animation: loader 2s ease 0s infinite normal
+    animation: loader 1s ease 0s infinite normal
 }
 
 @keyframes carga {

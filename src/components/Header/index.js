@@ -164,7 +164,7 @@ class Header extends Component {
                 <div className="tria der" ref={(der) => { this.der = der }}></div>
                 <div className="marco">
                     <img id="perfil" src={perfil} alt="Franco Esparza" />
-                    <h1 id="consola" className="title has-text-weight-light has-text-white" ref={(consola) => { this.consola = consola }}></h1>
+                    <h1 id="consola" className="title has-text-weight-light has-text-white im-back2" ref={(consola) => { this.consola = consola }}></h1>
                 </div>
             </div>
         );
