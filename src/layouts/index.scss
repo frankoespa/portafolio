@@ -17,7 +17,7 @@ body {
    height: 100%;
    overflow-y: scroll
 }
-
+/* Modificaciones Bulma */
 .tile.is-ancestor {
     margin: 0
 }
@@ -30,6 +30,10 @@ body {
     box-shadow: 0px 0px 5px black
 }
 
+.footer {
+	padding: 1rem
+}
+/* Modificaciones Bulma */
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;

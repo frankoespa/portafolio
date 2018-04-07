@@ -6,6 +6,7 @@ import Info from '../components/Info'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Frase from '../components/Frase'
+import Footer from '../components/Footer'
 
 export default () => (
     <div id="index">
@@ -15,6 +16,7 @@ export default () => (
         <Skills/>
         <Info/>
         <Contact/>
+        <Footer/>
     </div>
 
 )

@@ -12,7 +12,7 @@ class About extends Component {
                         I like to participate in the analysis, design, implementation, testing and improvement of the systems. <br />
                         I am part of the Frontend Development world using React Js, although I also like to get involved in the Backend or develop for mobile.<br />
                         I consider myself a person with an analytical profile, with initiative and ability to solve problems, easy integration into work teams and good communication skills.<br />
-                        I am a super fan of JavaScript and Node Js and I enjoy studying english, traveling, meeting people and doing sports.
+                        I am a super fan of technology and I enjoy studying english, traveling, meeting people and doing sports.
                     </p>
                 </div>
 
